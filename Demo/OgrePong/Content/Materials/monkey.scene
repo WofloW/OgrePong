@@ -1,0 +1,52 @@
+<scene export_time="1392776376.376628" formatVersion="1.0.1" previous_export_time="1392754276.584593" exported_by="Lance" >
+  <nodes >
+    <node name="monkey" >
+      <position y="-0.429348" x="3.732017" z="1.823401" />
+      <rotation qw="0.453477" qy="0.523914" qx="-0.473201" qz="-0.544016" />
+      <scale y="1.634993" x="1.779029" z="1.470469" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity velocity_min="0.0" name="monkey" actor="False" friction_z="1.0" lock_trans_z="False" lock_trans_y="False" lock_trans_x="False" inertia_tensor="0.4000000059604645" friction_y="1.0" damping_rot="0.10000000149011612" friction_x="1.0" mass="1.0" meshFile="monkey.mesh" ghost="False" damping_trans="0.03999999910593033" velocity_max="0.0" mass_radius="1.0" lock_rot_x="False" lock_rot_y="False" physics_type="STATIC" anisotropic_friction="False" lock_rot_z="False" />
+    </node>
+    <node name="Lamp" >
+      <position y="2.055908" x="-3.189538" z="-3.386922" />
+      <rotation qw="0.570947" qy="0.755880" qx="0.169076" qz="-0.272171" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Lamp" type="point" powerScale="1.0" shadow="true" >
+        <position y="2.055908" x="-3.189538" z="-3.386922" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" quadratic="0.0" range="5000" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+        <colourShadow g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position y="5.343665" x="7.481132" z="6.507640" />
+      <rotation qw="0.781600" qy="0.334251" qx="0.481707" qz="-0.212922" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera name="Camera" fov="0.5033799435163735" projectionType="perspective" >
+        <clipping far="100.0" nearPlaneDist="0.10000000149011612" near="0.10000000149011612" farPlaneDist="100.0" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\Lance\Documents\monkey.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+    <colourDiffuse g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>
